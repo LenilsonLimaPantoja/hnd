@@ -1,0 +1,76 @@
+.container-comentario {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.item-box {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+@media (max-width: 1024px) {
+  .item-box {
+    flex-wrap: wrap;
+  }
+}
+.card-comentantio {
+  background-color: #fff;
+  border-radius: 20px;
+  border: solid 1px gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.title-comentario {
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.depoimento-wrapper {
+  display: flex;
+  column-gap: 60px;
+  align-items: center;
+}
+.autor-wrapper {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+.item-depoimento {
+  font-size: 20px;
+}
+.item-autor {
+  font-size: 25px;
+  font-weight: bold;
+}
+.container-servicos {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 40px;
+  flex-wrap: wrap;
+}
+.card-item-servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px gray;
+  border-radius: 20px;
+  width: 250px;
+  flex-grow: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+.card-item-servicos img {
+  width: 50px;
+}
+.card-item-servicos p {
+  text-align: center;
+}
